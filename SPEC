@@ -31,9 +31,11 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
         'Text::Table'                          => 0,
         # goo-ey
         'Tk'                                   => 0,
-        # misc
+        # web
         'HTML::Parser'                         => 0,
         'Mojolicious'                          => 0,
+        # misc
+        'File::HomeDir'                        => 0,
         ( IS_WINDOWS ? (
         'Win32::API'                           => 0,
         ) : () ),

@@ -67,6 +67,8 @@ System specific.
 
 =head3 L<Devel::Size>
 
+=head3 L<File::HomeDir>
+
 =head3 L<Perl::Tidy>
 
 =head3 L<Test::Pod>
