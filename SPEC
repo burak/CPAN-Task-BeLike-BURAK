@@ -36,6 +36,17 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
         'Mojolicious'                          => 0,
         # misc
         'File::HomeDir'                        => 0,
+
+        # These are actually needed for an xmlfeed I generate for my PerlMonks
+        # account
+        'DateTime'                             => 0,
+        'DateTime::Format::Mail'               => 0,
+        'DateTime::Format::W3CDTF'             => 0,
+        'LWP::UserAgent'                       => 0,
+        'XML::RSS'                             => 0,
+        'XML::Simple'                          => 0,
+
+        # OS-Specific
         ( IS_WINDOWS ? (
         'Win32::API'                           => 0,
         ) : () ),

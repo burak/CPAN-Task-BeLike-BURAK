@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 1;
 
@@ -24,6 +24,14 @@ None.
 This is a tool to install module I use.
 
 =head1 PREREQUISITIES
+
+=head2 DATE MANIPULATION
+
+=head3 L<DateTime>
+
+=head3 L<DateTime::Format::W3CDTF>
+
+=head3 L<DateTime::Format::Mail>
 
 =head2 MY MODULES
 
@@ -85,10 +93,18 @@ System specific.
 
 =head3 L<HTML::Parser>
 
+=head3 L<LWP::UserAgent>
+
 =head3 L<Mojolicious>
 
 =head2 SYSTEM SPECIFIC
 
 =head3 L<Win32::API>
+
+=head2 XML
+
+=head3 L<XML::RSS>
+
+=head3 L<XML::Simple>
 
 =cut
