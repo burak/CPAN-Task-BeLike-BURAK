@@ -24,7 +24,7 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
         ) : () ),
         # utility belt
         'criticism'                            => '1.02',
-        'Devel::Size'                          => 0,
+        'Devel::Size'                          => '0.73',
         'Perl::Tidy'                           => 0,
         'Test::Pod'                            => 0,
         'Test::Pod::Coverage'                  => 0,
