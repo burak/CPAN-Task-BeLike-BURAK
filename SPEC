@@ -26,6 +26,7 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
         'criticism'                            => '1.02',
         'Devel::Size'                          => '0.73',
         'Perl::Tidy'                           => 0,
+        'Software::License'                    => 0,
         'Test::Pod'                            => 0,
         'Test::Pod::Coverage'                  => 0,
         'Text::Table'                          => 0,

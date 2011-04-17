@@ -79,6 +79,8 @@ System specific.
 
 =head3 L<Perl::Tidy>
 
+=head3 L<Software::License>
+
 =head3 L<Test::Pod>
 
 =head3 L<Test::Pod::Coverage>
