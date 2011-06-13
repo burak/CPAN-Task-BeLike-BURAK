@@ -30,8 +30,6 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
         'Test::Pod'                            => 0,
         'Test::Pod::Coverage'                  => 0,
         'Text::Table'                          => 0,
-        # goo-ey
-        'Tk'                                   => 0,
         # web
         'HTML::Parser'                         => 0,
         'Mojolicious'                          => 0,
@@ -46,6 +44,9 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
         'LWP::UserAgent'                       => 0,
         'XML::RSS'                             => 0,
         'XML::Simple'                          => 0,
+
+        # Fix cpan annoyment
+        'Term::ReadLine::Perl'                 => 0,
 
         # OS-Specific
         ( IS_WINDOWS ? (

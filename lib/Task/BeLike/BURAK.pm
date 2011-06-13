@@ -81,15 +81,13 @@ System specific.
 
 =head3 L<Software::License>
 
+=head3 L<Term::ReadLine::Perl>
+
 =head3 L<Test::Pod>
 
 =head3 L<Test::Pod::Coverage>
 
 =head3 L<Text::Table>
-
-=head2 GUI
-
-=head3 L<Tk>
 
 =head2 WEB
 
