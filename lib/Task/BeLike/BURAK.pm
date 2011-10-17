@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.13';
+$VERSION = '0.14';
 
 1;
 
@@ -80,6 +80,8 @@ System specific.
 =head3 L<Perl::Tidy>
 
 =head3 L<Software::License>
+
+=head3 L<Task::CPAN::Reporter>
 
 =head3 L<Term::ReadLine::Perl>
 

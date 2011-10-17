@@ -47,6 +47,8 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
 
         # Fix cpan annoyment
         'Term::ReadLine::Perl'                 => 0,
+        # CPAN Reports
+        'Task::CPAN::Reporter'                 => 0,
 
         # OS-Specific
         ( IS_WINDOWS ? (

@@ -1,5 +1,8 @@
 Revision history for Perl extension Task::BeLike::BURAK
 
+0.14 Mon Oct 17 03:43:14 2011
+   => Added Task::CPAN::Reporter.
+
 0.13 Mon Jun 13 03:59:34 2011
    => Remove Tk, add Term::ReadLine::Perl.
 
