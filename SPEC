@@ -42,6 +42,7 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
         'DateTime::Format::Mail'               => 0,
         'DateTime::Format::W3CDTF'             => 0,
         'LWP::UserAgent'                       => 0,
+        'LWP::Protocol::https'                 => 0,
         'XML::RSS'                             => 0,
         'XML::Simple'                          => 0,
 

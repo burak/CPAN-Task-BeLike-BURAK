@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.14';
+$VERSION = '0.15';
 
 1;
 
@@ -96,6 +96,8 @@ System specific.
 =head3 L<HTML::Parser>
 
 =head3 L<LWP::UserAgent>
+
+=head3 L<LWP::Protocol::https>
 
 =head3 L<Mojolicious>
 
