@@ -61,4 +61,9 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
             repository => 'http://bitbucket.org/burak/cpan-task-belike-burak/',
         },
     },
+    BUILDER => {
+        change_versions                  => 1,
+        copyright_first_year             => 2011,
+        add_pod_author_copyright_license => 1,
+    },
 }
