@@ -2,7 +2,6 @@ use constant IS_WINDOWS => $^O =~ m{MSWin}i;
 {
     module_name => 'Task::BeLike::BURAK',
     requires    => {
-        ( $] < 5.006 ? ( 'warnings::compat'  => 0 ) : () ),
         # mine, my own, my precioussssss
         'Acme::CPANAuthors::Turkish'           => '0.20',
         'App::Sys::Info'                       => '0.13', # Will pull-in all Sys::Info::*
