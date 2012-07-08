@@ -1,5 +1,8 @@
 Revision history for Perl extension Task::BeLike::BURAK
 
+0.16 Sun Jul  8 01:50:04 2012
+    => Bump version.
+
 0.15 Sat Nov 12 22:55:01 2011
    => Add LWP::Protocol::https
 
