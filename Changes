@@ -1,5 +1,8 @@
 Revision history for Perl extension Task::BeLike::BURAK
 
+0.18 Thu Jan  9 02:19:00 2014
+    => Remove obsolete modules.
+
 0.17 Sun Jul 28 08:21:37 2013
     => Add new modules, remove some unused things.
 
