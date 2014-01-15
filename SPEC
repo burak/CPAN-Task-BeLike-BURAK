@@ -55,7 +55,7 @@ use constant IS_LINUX   => $^O eq 'linux';
     },
     meta_merge => {
         resources => {
-            repository => 'http://bitbucket.org/burak/cpan-task-belike-burak/',
+            repository => 'http://github.com/burak/cpan-task-belike-burak/',
         },
     },
     BUILDER => {
