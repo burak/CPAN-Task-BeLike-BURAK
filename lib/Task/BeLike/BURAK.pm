@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use vars qw( $VERSION );
 
-$VERSION = '0.18';
+$VERSION = '0.19';
 
 1;
 
@@ -13,7 +13,7 @@ __END__
 
 =head1 NAME
 
-Task::Lingua::Any::Numbers - Installs all modules I (BURAK) like
+Task::BeLike::BURAK - Installs all modules I (BURAK) like
 
 =head1 SYNOPSIS
 
