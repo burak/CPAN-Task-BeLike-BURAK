@@ -1,9 +1,7 @@
 package Task::BeLike::BURAK;
+
 use strict;
 use warnings;
-use vars qw( $VERSION );
-
-$VERSION = '0.19';
 
 1;
 
