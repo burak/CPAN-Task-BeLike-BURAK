@@ -19,7 +19,7 @@ None.
 
 =head1 DESCRIPTION
 
-This is a tool to install module I use.
+This is a tool to install the modules I like.
 
 =head1 PREREQUISITIES
 
